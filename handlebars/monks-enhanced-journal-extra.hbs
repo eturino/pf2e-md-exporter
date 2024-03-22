@@ -1,0 +1,20 @@
+{{! This handlebar will return the markdown of the data extracted from an entry of Monk's Enhanced Journal.}}
+
+{{#if attributesTableData}}
+## Attributes
+{{{me-markdownTable attributesTableData}}}
+{{/if}}
+
+{{#if relationshipsTableData}}
+## Relationships
+{{{me-markdownTable relationshipsTableData}}}
+{{/if}}
+
+{{#if img}}
+![[{{img}}|500]]
+{{/if}}
+
+{{#if notes}}
+## notes
+{{notes}}
+{{/if}}

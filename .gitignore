@@ -1,2 +1,5 @@
-
 export-markdown.lock
+.history
+.vscode
+.yarn
+node_modules

@@ -1,0 +1,15 @@
+{
+  "name": "pf2e-md-exporter",
+  "description": "FoundryVTT - Exports one or more journals as a ZIP file containing markdown files in a folder tree. This is specifically tuned for working with PF2E formatted data.",
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@biomejs/biome": "1.6.2"
+  },
+  "scripts": {
+    "format": "biome format --write ./scripts"
+  }
+}
